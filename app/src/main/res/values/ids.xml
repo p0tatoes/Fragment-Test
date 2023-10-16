@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="LogoContainer" type="id" />
+    <item name="imageView" type="id" />
+    <item name="textView" type="id" />
+    <item name="LoginContainer" type="id" />
+    <item name="editTextUsername" type="id" />
+    <item name="editTextPassword" type="id" />
+    <item name="LoginBtnContainer" type="id" />
+    <item name="button" type="id" />
+    <item name="buttonLogin" type="id" />
+    <item name="textView2" type="id" />
+    <item name="imageButton" type="id" />
+    <item name="imageButton2" type="id" />
+    <item name="SocialContainer" type="id" />
+    <item name="imageButton3" type="id" />
+    <item name="imageButton4" type="id" />
+    <item name="imageButton5" type="id" />
+    <item name="imageButton6" type="id" />
+    <item name="SignupBtnContainer" type="id" />
+    <item name="textView3" type="id" />
+    <item name="buttonSignup" type="id" />
+</resources>

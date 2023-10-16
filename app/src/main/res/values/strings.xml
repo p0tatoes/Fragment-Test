@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FragmenTest</string>
+    <string name="title_home">Profile</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_input_entries">Input Entries</string>
+    <string name="title_qpi_calculator">QPI Calculator</string>
+    <string name="title_huh">HUH</string>
+    <string name="title_name">Marvin Paul Eloja</string>
+</resources>
