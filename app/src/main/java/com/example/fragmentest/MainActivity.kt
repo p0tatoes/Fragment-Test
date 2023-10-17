@@ -46,6 +46,8 @@ class MainActivity : AppCompatActivity() {
         qpiCalculatorButton = findViewById(R.id.redirectQPI)
         qpiCalculatorButton.setOnClickListener {
             //TODO: Make intent to start QPI Calculator activity
+            val toQPICalculator: Intent = Intent(this, QPICalculator::class.java)
+            startActivity(toQPICalculator)
         }
     }
 }
