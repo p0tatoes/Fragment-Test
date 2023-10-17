@@ -40,12 +40,12 @@ class MainActivity : AppCompatActivity() {
 
         inputEntriesButton = findViewById(R.id.redirectInputEntries)
         inputEntriesButton.setOnClickListener {
-            //TODO: Make intent to start "input entry" activity
+            val toInputEntries: Intent = Intent(this, InputEntries::class.java)
+            startActivity(toInputEntries)
         }
 
         qpiCalculatorButton = findViewById(R.id.redirectQPI)
         qpiCalculatorButton.setOnClickListener {
-            //TODO: Make intent to start QPI Calculator activity
             val toQPICalculator: Intent = Intent(this, QPICalculator::class.java)
             startActivity(toQPICalculator)
         }

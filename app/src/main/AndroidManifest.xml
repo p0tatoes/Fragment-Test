@@ -13,6 +13,9 @@
         android:theme="@style/Theme.FragmenTest"
         tools:targetApi="34">
         <activity
+            android:name=".InputEntries"
+            android:exported="false" />
+        <activity
             android:name=".QPICalculator"
             android:exported="false" />
         <activity

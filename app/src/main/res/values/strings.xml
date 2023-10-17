@@ -6,4 +6,17 @@
     <string name="title_qpi_calculator">QPI Calculator</string>
     <string name="title_huh">HUH</string>
     <string name="title_name">Marvin Paul Eloja</string>
+    <string name="header_full_name">Fullname</string>
+    <string name="header_home_address">Home Address</string>
+    <string name="header_notes">Notes</string>
+    <string name="str_first_name">Firstname</string>
+    <string name="str_last_name">Lastname</string>
+    <string name="str_house_num">House #</string>
+    <string name="str_street_name">Street Name</string>
+    <string name="str_housing_name">Subdivision / Housing Name</string>
+    <string name="str_city_name">City</string>
+    <string name="str_country_name">Country</string>
+    <string name="str_comments">Comments / Notes</string>
+    <string name="str_back_button">Back</string>
+    <string name="str_save_button">Save</string>
 </resources>

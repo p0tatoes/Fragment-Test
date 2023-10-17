@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/header_full_name"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/str_first_name"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/str_last_name"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/header_home_address"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextText6"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/str_house_num"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/editTextText7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/str_street_name"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editTextText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/str_housing_name"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/editTextText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/str_city_name"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/editTextText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/str_country_name"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/header_notes"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextText8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:gravity="top|left"
+            android:hint="@string/str_comments"
+            android:inputType="text"
+            android:textAlignment="gravity"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="right"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0"
+            android:background="#D8D8D8"
+            android:text="@string/str_back_button"
+            android:textSize="12sp"
+            app:cornerRadius="0dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="120dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:background="#90CDDC39"
+            android:text="@string/str_save_button"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:cornerRadius="0dp"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
