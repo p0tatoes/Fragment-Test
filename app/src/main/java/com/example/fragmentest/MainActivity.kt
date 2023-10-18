@@ -16,9 +16,9 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
     // Buttons
-    private lateinit var inputEntriesButton: Button
-    private lateinit var qpiCalculatorButton: Button
-    private lateinit var playViewButton: Button
+//    private lateinit var inputEntriesButton: Button
+//    private lateinit var qpiCalculatorButton: Button
+//    private lateinit var playViewButton: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,22 +39,22 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
-        inputEntriesButton = findViewById(R.id.redirectInputEntries)
-        inputEntriesButton.setOnClickListener {
-            val toInputEntries: Intent = Intent(this, InputEntries::class.java)
-            startActivity(toInputEntries)
-        }
-
-        qpiCalculatorButton = findViewById(R.id.redirectQPI)
-        qpiCalculatorButton.setOnClickListener {
-            val toQPICalculator: Intent = Intent(this, QPICalculator::class.java)
-            startActivity(toQPICalculator)
-        }
-
-        playViewButton = findViewById(R.id.redirectPlay)
-        playViewButton.setOnClickListener {
-            val toPlayView: Intent = Intent(this, PlayView::class.java)
-            startActivity(toPlayView)
-        }
+//        inputEntriesButton = findViewById(R.id.redirectInputEntries)
+//        inputEntriesButton.setOnClickListener {
+//            val toInputEntries: Intent = Intent(this, InputEntries::class.java)
+//            startActivity(toInputEntries)
+//        }
+//
+//        qpiCalculatorButton = findViewById(R.id.redirectQPI)
+//        qpiCalculatorButton.setOnClickListener {
+//            val toQPICalculator: Intent = Intent(this, QPICalculator::class.java)
+//            startActivity(toQPICalculator)
+//        }
+//
+//        playViewButton = findViewById(R.id.redirectPlay)
+//        playViewButton.setOnClickListener {
+//            val toPlayView: Intent = Intent(this, PlayView::class.java)
+//            startActivity(toPlayView)
+//        }
     }
 }
