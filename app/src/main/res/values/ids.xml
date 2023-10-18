@@ -7,7 +7,7 @@
     <item name="editTextUsername" type="id" />
     <item name="editTextPassword" type="id" />
     <item name="LoginBtnContainer" type="id" />
-    <item name="button" type="id" />
+    <item name="button_back" type="id" />
     <item name="buttonLogin" type="id" />
     <item name="textView2" type="id" />
     <item name="imageButton" type="id" />

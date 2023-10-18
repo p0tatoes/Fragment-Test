@@ -13,6 +13,9 @@
         android:theme="@style/Theme.FragmenTest"
         tools:targetApi="34">
         <activity
+            android:name=".PlayView"
+            android:exported="false" />
+        <activity
             android:name=".InputEntries"
             android:exported="false" />
         <activity

@@ -19,4 +19,9 @@
     <string name="str_comments">Comments / Notes</string>
     <string name="str_back_button">Back</string>
     <string name="str_save_button">Save</string>
+    <string name="str_activity_03">Activity 03: Input Entry Form</string>
+    <string name="str_activity_05">Activity 05: QPI Calculator</string>
+    <string name="str_activity_08">Activity 08: Play</string>
+    <string name="str_play">Play</string>
+    <string name="str_how_play">How to Play?</string>
 </resources>

@@ -27,22 +27,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="@string/title_input_entries" />
+        android:text="@string/str_activity_03" />
 
     <Button
         android:id="@+id/redirectQPI"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="@string/title_qpi_calculator" />
+        android:text="@string/str_activity_05" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/redirectPlay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:enabled="false"
-        android:text="@string/title_huh"
+        android:enabled="true"
+        android:text="@string/str_activity_08"
         tools:ignore="DuplicateSpeakableTextCheck" />
 
     <Button
