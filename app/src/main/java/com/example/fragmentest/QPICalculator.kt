@@ -250,5 +250,9 @@ class QPICalculator : AppCompatActivity() {
 
             disableButtons()
         }
+
+        // Click Listener: Back button
+        val backButton: Button = findViewById(R.id.qpi_button_back)
+        backButton.setOnClickListener { finish() }
     }
 }

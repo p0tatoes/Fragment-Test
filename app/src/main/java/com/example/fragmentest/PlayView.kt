@@ -2,6 +2,7 @@ package com.example.fragmentest
 
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 
@@ -20,5 +21,8 @@ class PlayView : AppCompatActivity() {
             image = if (isMute) R.drawable.icon_mute else R.drawable.icon_unmute
             muteButton.setImageResource(image)
         }
+
+        val backButton: Button = findViewById(R.id.play_button_back)
+        backButton.setOnClickListener { finish() }
     }
 }
